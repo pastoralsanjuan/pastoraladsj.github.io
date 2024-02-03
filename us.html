@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/urku.css">
   </head>
   <body class="top-fixed">
+    <div class="loader"></div>
     <header class="ae-container-fluid ae-container-fluid--full rk-header ">
       <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
       <label for="mobile-menu">
@@ -181,6 +182,12 @@
         </div>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+          $(".loader").fadeOut("slow");
+      });
+      </script>
     <script src="assets/js/svg4everybody.min.js"></script>
     <script>svg4everybody();</script>
     <script src="assets/js/main.min.js"></script>

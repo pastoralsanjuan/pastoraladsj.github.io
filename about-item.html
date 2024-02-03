@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/urku.css">
   </head>
   <body class="top-fixed">
+    <div class="loader"></div>
     <header class="ae-container-fluid ae-container-fluid--full rk-header ">
       <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
       <label for="mobile-menu">
@@ -50,13 +51,14 @@
           <p class="ae-theta rk-portfolio-category " style="color: azure;">¡Eres bienvenido!</p>
         </div>
       </header>
+      <br>
       <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
         <div class="ae-grid ae-grid--collapse">
           <div class="ae-grid__item item-lg-6"><img src="assets/img/retiro.jpg" alt="Pastoral"></div>
           <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
             <h4 class="ae-u-bolder">¡Nuestro Primer Retiro!</h4>
             <p class="ae-eta">
-              El día 03 de Diciembre del presente año se realizó nuestro primer retiro para los adolescentes dela comunidad, apoyado por el grupo de <a href="https://www.facebook.com/profile.php?id=100084162542815">Pastoral Juvenil Tala,</a> con su ayuda pudimos realizar este bonito retiro para que los adoescentes se unan más a Dios.
+              El día 03 de Diciembre de 2023, se realizó nuestro primer retiro para los adolescentes de la comunidad, apoyado por el grupo de <a href="https://www.facebook.com/profile.php?id=100084162542815">Pastoral Juvenil Tala,</a> quienes con su ayuda pudimos realizar este bonito retiro para que los adolescentes conozcan y se unan más a Dios.
             </p>
           </div>
         </div>
@@ -65,9 +67,9 @@
         <br>
         <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
           <div class="ae-grid__item item-lg-5 au-lg-ptp-0">
-            <h4 class="ae-u-bolder">Día De Los Muertos💀</h4>
+            <h4 class="ae-u-bolder">Día De Los Muertos💀☦</h4>
             <p class="ae-eta">
-              Como cada año, realizamos un altar de muertos para recordar a aquellas personas que al día de hoy ya no se encuentran con nosotros, sin embargo sabemos que "No muere quien se va, muere quien se olvida". Este al ser nuestro primer altar, decidimos solicitar a la familia Orozco Casas su aceptación para conmemorar al joven José Luis Orozco Casas.
+              Como cada año, en México realizamos un altar de muertos para recordar a aquellas personas que al día de hoy ya no se encuentran con nosotros, sin embargo sabemos que "No muere quien se va, muere quien se olvida". Este al ser nuestro primer altar, decidimos solicitar a la familia Orozco Casas su aceptación para conmemorar al joven José Luis Orozco Casas.
             </p>
           </div>
           <div class="ae-grid__item item-lg-6 item-lg--offset-1">
@@ -82,7 +84,7 @@
           <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
             <h4 class="ae-u-bolder">¡Nuestra primera peregrinación!</h4>
             <p class="ae-eta">
-              El comité encargado de las fiestas de la Virgen de nuestra comunidad se tomó el tiempo de tomarnos en cuenta para participar en la peregrinación el día 09 de Septiembre. ¡Un gusto haber estado ahí!.
+              El comité encargado de las fiestas de la Virgen de nuestra comunidad se tomó el tiempo de tomarnos en cuenta para participar en la peregrinación el día 09 de Septiembre de 2023. ¡Para nosotros fue un gusto haber estado ahí!.
             </p>
           </div>
           <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
@@ -98,17 +100,17 @@
           <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
             <div class="ae-grid__item item-lg-5 au-lg-ptp--1">
               <h4 class="ae-u-bolder">Camiata Por La Paz</h4>
-              <p class="ae-eta">Durante la guerra de Israel con Palestina realizamos una caminata al cerro de nuestra localidad, el motivo de la caminata fue una manera de unirnos para realizar una petición a Dios dando un esfuerzo al subir el cerro, esto para que la guerra entre estas dos nacionalidades se detuviera.</p>
+              <p class="ae-eta">Durante la guerra de Israel con Palestina realizamos una caminata al cerro de nuestra localidad, el motivo de la caminata fue una manera de unirnos para realizar una petición a Dios, dando un esfuerzo de cada uno de nosotros al subir el cerro, esto para que la guerra entre estas dos naciones se detuviera.</p>
             </div>
             <div class="ae-grid__item item-lg-6 item-lg--offset-1"><img src="assets/img/pastoralgroup.jpg" alt="Pastoral"></div>
           </div>
-        <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
+        <!-- <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
           <div class="ae-grid__item item-lg-8 item-lg--offset-2">
             <h4 class="ae-u-bolder">Full Wide Text</h4>
             <p class="ae-eta">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p class="ae-eta">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
           </div>
-        </div>
+        </div> -->
         <br>
         <hr style="border-width: 3px; border-color: slategray;">
         <br>
@@ -171,6 +173,12 @@
         </div>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+          $(".loader").fadeOut("slow");
+      });
+      </script>
     <script src="assets/js/svg4everybody.min.js"></script>
     <script>svg4everybody();</script>
   </body>
